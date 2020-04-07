@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		EB13A1C7243C4248006B91EC /* FunctionalErrorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FunctionalErrorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EB985753243C3D0B002EDB8C /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		EB13A1C8243C4274006B91EC /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				EB13A1C7243C4248006B91EC /* FunctionalErrorHandling.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
 		EB98574B243C3CC7002EDB8C = {
 			isa = PBXGroup;
 			children = (
-				EB985752243C3CF0002EDB8C /* src */,
+				EB13A1C8243C4274006B91EC /* Playground */,
+				EB985752243C3CF0002EDB8C /* Source */,
 			);
 			sourceTree = "<group>";
 		};
-		EB985752243C3CF0002EDB8C /* src */ = {
+		EB985752243C3CF0002EDB8C /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				EB985753243C3D0B002EDB8C /* Either.swift */,
 			);
-			path = src;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
