@@ -6,11 +6,24 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		EB985753243C3D0B002EDB8C /* Either.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Either.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		EB98574B243C3CC7002EDB8C = {
 			isa = PBXGroup;
 			children = (
+				EB985752243C3CF0002EDB8C /* src */,
 			);
+			sourceTree = "<group>";
+		};
+		EB985752243C3CF0002EDB8C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EB985753243C3D0B002EDB8C /* Either.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
